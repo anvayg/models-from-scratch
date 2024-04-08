@@ -158,7 +158,7 @@ def prob_fare(X, y_class, x, i=5):     # Gaussian
     return normpdf(x[i], mean, sd)
 
 if __name__ == '__main__':
-    feature_names, X, y = get_data('../titanic_data.csv')
+    feature_names, X, y = get_data('titanic_data.csv')
 
     personal_x = np.array([3, 0, 24, 1, 0, 7.23])
 
